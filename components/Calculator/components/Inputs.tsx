@@ -109,7 +109,7 @@ export default function CalculatorInputs({
           />
 
           <SimulatorInput
-            label="Monthly media spend"
+            label="Monthly Media Spend"
             value={spend}
             onChange={setSpend}
             id="monthly-spend"
@@ -121,7 +121,7 @@ export default function CalculatorInputs({
 
         <div className="mx-auto max-w-lg space-y-6">
           <SimulatorInput
-            label="Monthly unique visitors"
+            label="Monthly Unique Visitors"
             value={monthlyVisitors}
             onChange={setMonthlyVisitors}
             targetValue={monthlyVisitorsTarget}
