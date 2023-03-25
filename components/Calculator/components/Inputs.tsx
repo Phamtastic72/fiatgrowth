@@ -101,7 +101,7 @@ export default function CalculatorInputs({
       <form onSubmit={onSubmit} className="space-y-8">
         <div className="mx-auto max-w-lg space-y-6">
           <SimulatorInput
-            label="Monthly recurring revenue"
+            label="Monthly Recurring Revenue"
             value={mrr}
             onChange={setMrr}
             id="mrr"
@@ -130,7 +130,7 @@ export default function CalculatorInputs({
           />
 
           <SimulatorInput
-            label="Visitor → Lead conversion rate"
+            label="Visitor → Lead Conversion Rate"
             value={signUpRate}
             onChange={setSignUpRate}
             targetValue={signupRateTarget}
@@ -140,7 +140,7 @@ export default function CalculatorInputs({
           />
 
           <SimulatorInput
-            label="Lead → Customer conversion rate"
+            label="Lead → Customer Conversion Rate"
             value={conversionRate}
             onChange={setConversionRate}
             targetValue={conversionRateTarget}
@@ -150,7 +150,7 @@ export default function CalculatorInputs({
           />
 
           <SimulatorInput
-            label="Average revenue per customer"
+            label="Average Revenue Per Customer"
             value={arpc}
             onChange={setArpc}
             targetValue={arpcTarget}
@@ -160,7 +160,7 @@ export default function CalculatorInputs({
           />
 
           <SimulatorInput
-            label="Churn rate"
+            label="Churn Rate"
             value={churnRate}
             onChange={setChurnRate}
             targetValue={churnRateTarget}
